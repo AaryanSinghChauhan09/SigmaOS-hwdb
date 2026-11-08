@@ -4,6 +4,7 @@
 //! udev/sysctl/sysusers/tmpfiles-style rule file: match+action tokens, fail-fast validation, deterministic render.
 //! Principles: single responsibility, fail-fast, defensive programming,
 //! component isolation, stable API, deterministic tests.
+#![forbid(unsafe_code)]
 
 use std::fmt;
 /// Errors for `RuleError` operations. Fail-fast: invalid input is rejected.
