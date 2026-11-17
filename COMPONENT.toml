@@ -3,7 +3,7 @@ name = "SigmaOS-hwdb"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "hwdb component"
+description = "SigmaOS SigmaOS-hwdb component"
 upstream = []
 
 [contract]
